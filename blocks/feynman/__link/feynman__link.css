@@ -1,0 +1,20 @@
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #000;
+}
+
+.feynman__link:hover {
+  cursor: pointer;
+  color: #2f80ed;
+  text-decoration: underline;
+}
+
+.feynman__link::after {
+  content: '\0020\2192';
+}

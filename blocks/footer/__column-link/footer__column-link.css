@@ -1,0 +1,17 @@
+.footer__column-link {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.footer__column-link:hover {
+ /* border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px 6px #6b6666, inset 0 0 8px white;*/
+  color:#b5cff1;
+  text-decoration: underline;
+}
